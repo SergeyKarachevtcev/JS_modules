@@ -1,0 +1,22 @@
+
+/* reset */
+@import './reset/reset';
+/* reset */
+
+/* imports */
+@import './blocks/header.scss';
+@import './blocks/footer.scss';
+
+/* sticky footer */
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.footer {
+    margin-top: auto;
+}
+/* sticky footer */
