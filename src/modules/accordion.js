@@ -9,7 +9,13 @@ const accordion = () => {
     let accordionTitles = item.querySelectorAll('.accordion-title');
     accordionTitles.forEach((title) => {
       title.addEventListener('click', () => {
-        item.classList.toggle('active');
+        accordionItems.forEach((accItem) => {
+          if (accItem !== item) {
+            accItem.classList.remove('active');
+          } else {
+            item.classList.toggle('active');
+          }
+        });
       });
     });
   });
