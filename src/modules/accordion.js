@@ -1,9 +1,6 @@
 'use strict';
 
-import { addAbortListener } from 'events';
-import forEach from 'for-each';
-
-const accordion = () => {
+function accordion() {
   let accordionItems = document.querySelectorAll('.accordion-item');
   accordionItems.forEach((item) => {
     let accordionTitles = item.querySelectorAll('.accordion-title');
@@ -19,6 +16,6 @@ const accordion = () => {
       });
     });
   });
-};
+}
 
 export default accordion;
