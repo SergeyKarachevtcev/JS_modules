@@ -1,5 +1,7 @@
 'use strict';
 
-import accordion from './modules/accordion';
+/* import accordion from './modules/accordion'; */
+import tabs from './modules/tabs';
 
-accordion();
+tabs();
+/* accordion(); */

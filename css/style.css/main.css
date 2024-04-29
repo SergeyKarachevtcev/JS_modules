@@ -165,6 +165,37 @@ legend {
   display: block;
 }
 
+.tab {
+  width: 500px;
+}
+
+.tab button.active {
+  background: green;
+}
+
+.tab button {
+  border: 2px solid black;
+  background: red;
+  padding: 10px 15px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.tab button:hover {
+  background: rgb(231, 104, 104);
+}
+
+.tabcontent {
+  background: white;
+  width: 500px;
+  padding: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 21px;
+  display: none;
+}
+
 /* sticky footer */
 html {
   height: 100%;
