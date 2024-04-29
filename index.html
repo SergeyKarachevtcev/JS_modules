@@ -6,15 +6,47 @@
     <!-- main css -->
     <link rel="stylesheet" href="./css/style.css/main.css" />
     <!-- script -->
-    <script src="./dist/main.js"></script>
+    <script src="./dist/main.js" defer></script>
     <!-- title -->
     <title>foundation land</title>
   </head>
   <body>
     <!-- header -->
-    <div class="header">
-      <h1>header</h1>
+    <div class="header">header</div>
+
+    <!-- TABS -->
+    <div class="tab">
+      <button class="tablink active" data-tab="tab1">Tab 1</button>
+      <button class="tablink" data-tab="tab2">Tab 2</button>
+      <button class="tablink" data-tab="tab3">Tab 3</button>
     </div>
+
+    <!-- tab 1 content-->
+    <div id="tab1" class="tabcontent" style="display: block">
+      <h2>Tab 1</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, impedit provident. Odio neque molestias deserunt nemo sequi natus! Eveniet dolorem, nesciunt odit mollitia rem esse sunt, saepe
+        magnam obcaecati sit placeat nostrum. Maiores optio, veritatis assumenda dolorem soluta voluptatibus sit perferendis facilis? Eum mollitia adipisci molestiae rem suscipit alias tenetur?
+      </p>
+    </div>
+    <!-- tab 2 content-->
+    <div id="tab2" class="tabcontent" style="display: none">
+      <h2>Tab 2</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, impedit provident. Odio neque molestias deserunt nemo sequi natus! Eveniet dolorem, nesciunt odit mollitia rem esse sunt, saepe
+        magnam obcaecati sit placeat nostrum. Maiores optio, veritatis assumenda dolorem soluta voluptatibus sit perferendis facilis? Eum mollitia adipisci molestiae rem suscipit alias tenetur?
+      </p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, corporis.</p>
+    </div>
+    <!-- tab 3 content-->
+    <div id="tab3" class="tabcontent" style="display: none">
+      <h2>Tab 3</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, impedit provident. Odio neque molestias deserunt nemo sequi natus! Eveniet dolorem, nesciunt odit mollitia rem esse sunt, saepe
+        magnam obcaecati sit placeat nostrum. Maiores optio
+      </p>
+    </div>
+    <!-- TABS -->
     <!-- footer -->
     <div class="footer">footer</div>
   </body>

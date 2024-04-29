@@ -1,3 +1,7 @@
-import firstModile from "./modules/firstModul";
+'use strict';
 
-firstModile();
+/* import accordion from './modules/accordion'; */
+import tabs from './modules/tabs';
+
+tabs();
+/* accordion(); */

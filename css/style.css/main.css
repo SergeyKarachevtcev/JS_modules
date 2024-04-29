@@ -125,6 +125,77 @@ legend {
   color: red;
 }
 
+.accordion {
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 450px;
+  border: 2px solid black;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.accordion-title {
+  transition: all 0.3s;
+  color: blue;
+  background-color: red;
+  padding: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.accordion-title:hover {
+  background-color: orange;
+}
+
+.accordion-content {
+  display: none;
+  background-color: rgb(230, 213, 181);
+  padding: 10px;
+}
+
+.accordion-item.active .accordion-content {
+  display: block;
+}
+
+.tab {
+  width: 500px;
+}
+
+.tab button.active {
+  background: green;
+}
+
+.tab button {
+  border: 2px solid black;
+  background: red;
+  padding: 10px 15px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.tab button:hover {
+  background: rgb(231, 104, 104);
+}
+
+.tabcontent {
+  background: white;
+  width: 500px;
+  padding: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 21px;
+  display: none;
+}
+
 /* sticky footer */
 html {
   height: 100%;

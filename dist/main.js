@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("1231")})();
+(()=>{"use strict";document.querySelectorAll(".tablink").forEach((t=>{t.addEventListener("click",(function(){let t=this.dataset.tab,e=document.getElementById(t),l=document.querySelectorAll(".tabcontent"),c=document.querySelectorAll(".tablink");l.forEach((t=>{t.style.display="none"})),c.forEach((t=>{t.classList.remove("active")})),e.style.display="block",this.classList.add("active")}))}))})();
