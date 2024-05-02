@@ -1,1 +1,1 @@
-(()=>{"use strict";!function(){let e=document.querySelectorAll(".accordion-item");e.forEach((c=>{c.querySelectorAll(".accordion-title").forEach((t=>{t.addEventListener("click",(()=>{e.forEach((e=>{e!==c?e.classList.remove("active"):c.classList.toggle("active")}))}))}))}))}()})();
+(()=>{"use strict";!function(){const i=document.getElementById("scroll-to-top");window.addEventListener("scroll",(()=>{window.scrollY>300?i.style.visibility="visible":i.style.visibility="hidden"})),i.addEventListener("click",(()=>{window.scrollTo({top:0,behavior:"smooth"})}))}()})();

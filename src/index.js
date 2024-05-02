@@ -1,5 +1,5 @@
 'use strict';
 
-import accordion from './modules/accordion';
+import scrollToUp from './modules/scrollToUp';
 
-accordion();
+scrollToUp();
