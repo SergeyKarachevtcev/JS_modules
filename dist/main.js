@@ -1,1 +1,1 @@
-(()=>{"use strict";!function(){const s=document.getElementById("stickyHeader"),t=s.offsetTop;window.addEventListener("scroll",(()=>{window.scrollY>t?s.classList.add("sticky"):s.classList.remove("sticky")}))}()})();
+(()=>{"use strict";!function(){const e=document.getElementById("menu-toggle"),t=document.getElementById("menu-list");e.addEventListener("click",(()=>{t.classList.toggle("active")}))}()})();

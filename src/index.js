@@ -1,5 +1,5 @@
 'use strict';
 
-import stickyHeader from './modules/stickyHeader';
+import sideMenu from './modules/sideMenuBar';
 
-stickyHeader();
+sideMenu();
