@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+p {
+  padding: 0 15px;
+}
+
+.stickyHeader {
+  background: red;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.stickyHeader.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 2px 4px gray;
+}

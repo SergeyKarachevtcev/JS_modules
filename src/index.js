@@ -1,3 +1,5 @@
-import firstModile from "./modules/firstModul";
+'use strict';
 
-firstModile();
+import sideMenu from './modules/sideMenuBar';
+
+sideMenu();

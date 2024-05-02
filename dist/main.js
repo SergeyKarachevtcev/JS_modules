@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("1231")})();
+(()=>{"use strict";!function(){const e=document.getElementById("menu-toggle"),t=document.getElementById("menu-list");e.addEventListener("click",(()=>{t.classList.toggle("active")}))}()})();
