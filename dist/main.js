@@ -1,1 +1,1 @@
-(()=>{"use strict";!function(){const i=document.getElementById("scroll-to-top");window.addEventListener("scroll",(()=>{window.scrollY>300?i.style.visibility="visible":i.style.visibility="hidden"})),i.addEventListener("click",(()=>{window.scrollTo({top:0,behavior:"smooth"})}))}()})();
+(()=>{"use strict";!function(){const s=document.getElementById("stickyHeader"),t=s.offsetTop;window.addEventListener("scroll",(()=>{window.scrollY>t?s.classList.add("sticky"):s.classList.remove("sticky")}))}()})();

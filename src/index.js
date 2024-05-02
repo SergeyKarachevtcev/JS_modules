@@ -1,5 +1,5 @@
 'use strict';
 
-import scrollToUp from './modules/scrollToUp';
+import stickyHeader from './modules/stickyHeader';
 
-scrollToUp();
+stickyHeader();
